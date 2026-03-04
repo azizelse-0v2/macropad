@@ -1,1 +1,4 @@
+# Ignore all zip backups
+*.zip
 macro_pad-backups/
+PCB/macro_pad-backups/
