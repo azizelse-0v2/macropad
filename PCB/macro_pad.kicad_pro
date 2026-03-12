@@ -505,7 +505,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../CAD/macro_pad.stl",
+      "step": "../CAD/Dependencies/macro_pad.stl",
       "svg": "",
       "vrml": ""
     },
