@@ -2,12 +2,11 @@
 
 ![Macro Pad](CAD/Pictures/image.png)
 
-A custom macro pad featuring 4 mechanical switches, a rotary encoder, OLED display, and RGB LEDs. Built with the Seeed XIAO RP2040 microcontroller and KMK firmware for a compact, programmable keyboard solution.
+A custom macro pad featuring 16 mechanical switches, OLED display, and RGB LEDs. Built with the Seeed XIAO RP2040 microcontroller and KMK firmware for a compact, programmable keyboard solution.
 
 ## Features
 
 - **4 Cherry MX Switches**: Tactile mechanical switches for responsive key presses
-- **Rotary Encoder**: For volume control or custom macros
 - **0.96" OLED Display**: SH1106 I2C display for status or custom graphics
 - **RGB LED Matrix**: WS2812B LEDs for visual feedback
 - **Compact Design**: Fits within 200x200x100mm enclosure
@@ -16,7 +15,7 @@ A custom macro pad featuring 4 mechanical switches, a rotary encoder, OLED displ
 ## Images
 
 ### Schematic
-![Schematic](PCB/Pictures/image1.png)
+![Schematic](PCB/Pictures/image6.png)
 
 ### PCB Layout
 ![PCB](PCB/Pictures/image2.png)
@@ -29,20 +28,20 @@ A custom macro pad featuring 4 mechanical switches, a rotary encoder, OLED displ
 | Part | Quantity | Description | Supplier |
 |------|----------|-------------|----------|
 | Seeed XIAO RP2040 | 1 | RP2040 microcontroller board | Seeed Studio |
-| Cherry MX Switch | 4 | Mechanical keyboard switches | Cherry |
-| DSA Keycap | 4 | Cherry MX compatible keycaps | Keycaps Direct |
+| Cherry MX Switch | 16 | Mechanical keyboard switches | Cherry |
+| DSA Keycaps | 16 | Cherry MX compatible keycaps | Keycaps Direct |
 | 0.96" OLED Display | 1 | SH1106 128x64 I2C OLED | AliExpress |
-| Rotary Encoder | 1 | EC11 rotary encoder | AliExpress |
-| WS2812B LED | 4 | RGB LEDs | AliExpress |
+| SK6812 MINI-E LED | 12 | RGB LEDs | AliExpress |
 | Custom PCB | 1 | 2-layer PCB | This project |
-| 3D Printed Case | 1 | ABS/PLA case parts | This project |
+| 3D Printed Case | 2 | ABS/PLA case parts | This project |
 
 ## Project Structure
 
 ```
 macro_pad/
 ├── CAD/                 # 3D models and assembly
-│   ├── macro_pad.step   # Complete assembly model
+│   ├── bottom_part.step # Bottom part of the 3D model
+│   ├── top_part.step    # Top part of the 3D model
 │   └── Pictures/        # Rendered images
 ├── PCB/                 # KiCAD design files
 │   ├── macro_pad.kicad_pro
@@ -54,8 +53,8 @@ macro_pad/
 │   └── kmk/             # KMK library
 ├── Production/          # Manufacturing files
 │   ├── gerbers.zip      # PCB gerbers
-│   ├── Top.STL          # Case parts
-│   ├── Bottom.STL
+│   ├── top_part.STL     # Case parts
+│   ├── bottom_part.STL
 │   └── firmware.uf2     # Compiled firmware
 └── README.md
 ```
@@ -70,11 +69,11 @@ macro_pad/
 ### Case Printing
 1. Use the STL files in `Production/` for 3D printing
 2. Print with ABS or PLA, 0.2mm layer height recommended
-3. Assemble with M2/M3 screws
+3. Assemble with M3 screws
 
 ### Assembly
 1. Solder components to the PCB
-2. Mount switches and encoder
+2. Mount switches
 3. Connect OLED and LEDs
 4. Place PCB in case and secure
 
