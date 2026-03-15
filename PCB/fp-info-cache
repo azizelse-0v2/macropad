@@ -1,4 +1,4 @@
-27224334783009141
+27233201259282816
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62194,6 +62194,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-S3-DevKitC
+ESP32-S3-DevKitC
+ESP32-S3-DevKitC at 240 MHz
+ESP32, ESP32-S3
+0
+44
+44
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -70552,6 +70559,13 @@ solder jumper open
 0
 3
 3
+L298N
+L298N
+L298N
+
+0
+22
+13
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -71805,6 +71819,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM2596
+LM2596
+
+
+0
+6
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98671,6 +98692,13 @@ cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
 0
 4
 4
+STM32F401RET6_Black_pill
+STM32F401RET6_Black_pill
+STM32F401RET6 Black pill microcontroller
+
+0
+40
+40
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -100778,6 +100806,13 @@ Logo WEEE
 0
 0
 0
+TB6612FNG
+TB6612FNG
+
+
+0
+16
+16
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -107919,7 +107954,7 @@ Varistor VF
 2
 2
 XIAO_RP2040
-XIAO-Generic-Hybrid-14P-2.54-21X17.8MM
+XIAO_RP2040
 
 
 0
